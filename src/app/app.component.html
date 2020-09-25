@@ -1,0 +1,7 @@
+Series: <wj-multi-select [(checkedItems)]="selectedSeries" [itemsSource]="seriesSource"></wj-multi-select>
+<br><br>
+ChartType: <wj-combo-box [(text)]="chartType" [itemsSource]="chartTypes"></wj-combo-box>
+<br><br>
+<button (click)="addChart()">Add Chart</button>
+<br><br>
+<div class="chart-container"></div>
